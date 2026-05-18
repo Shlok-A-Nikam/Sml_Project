@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: v1-app
+Version: 0.0.1
+Summary: A sample pyhton aplication
+Home-page: https://github.com/Shlok-A-Nikam/Sml_Project/tree/main
+Author: Shlok Nikam
+Author-email: shlokanikam@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sckit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
