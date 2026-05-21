@@ -1,0 +1,7 @@
+2026-05-21 11:45:25,890 - DEBUG - Detailed diagnostic information.
+2026-05-21 11:45:25,890 - INFO - Confirmation that things are working.
+2026-05-21 11:45:25,890 - WARNING - An unexpected issue occurred.
+2026-05-21 11:45:25,897 - INFO - Data Ingestion method starts
+2026-05-21 11:45:25,944 - INFO - Dataset read as pandas dataframe
+2026-05-21 11:45:25,965 - INFO - Raw data is saved
+2026-05-21 11:45:28,358 - INFO - Train and Test data is saved
