@@ -49,7 +49,7 @@ python train_model.py
 ```
 git add .
 git commit -m "Describe changes"
-git push origin main
+git push -u origin main
 ```
 
 **Notes**
