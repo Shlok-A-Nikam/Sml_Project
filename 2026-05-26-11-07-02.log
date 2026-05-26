@@ -1,0 +1,42 @@
+2026-05-26 11:07:02,581 - INFO - Confirmation that things are working.
+2026-05-26 11:07:02,582 - WARNING - An unexpected issue occurred.
+2026-05-26 11:07:04,055 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:07:04,055 - INFO - Data Ingestion method starts
+2026-05-26 11:07:04,078 - INFO - Dataset read as pandas dataframe
+2026-05-26 11:07:04,088 - INFO - Raw data is saved
+2026-05-26 11:07:04,102 - INFO - Train and Test data is saved
+2026-05-26 11:07:04,123 - INFO - Read train and test data successfully
+2026-05-26 11:07:04,128 - INFO - Computed 'total_score' from score columns
+2026-05-26 11:07:04,130 - INFO - Numerical and categorical pipelines created successfully
+2026-05-26 11:07:04,151 - INFO - Data transformation completed successfully
+2026-05-26 11:07:04,161 - INFO - Model training is completed successfully
+2026-05-26 11:07:04,162 - INFO - Model evaluation is completed successfully with r2 score: 0.9860361207927383
+2026-05-26 11:07:04,163 - INFO - Trained model saved at path: artifacts\model.pkl
+2026-05-26 11:07:04,163 - INFO - Model trainer pipeline is completed successfully
+2026-05-26 11:07:08,618 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:07:23,756 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:07:29,502 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:07:35,382 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:07:40,143 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:07:58,774 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:08:02,203 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:09:41,630 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:09:45,874 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:10:59,708 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:11:02,436 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:11:19,691 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:11:25,128 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:11:25,128 - INFO - Data Ingestion method starts
+2026-05-26 11:11:25,134 - INFO - Dataset read as pandas dataframe
+2026-05-26 11:11:25,141 - INFO - Raw data is saved
+2026-05-26 11:11:25,152 - INFO - Train and Test data is saved
+2026-05-26 11:11:25,174 - INFO - Read train and test data successfully
+2026-05-26 11:11:25,182 - INFO - Computed 'total_score' from score columns
+2026-05-26 11:11:25,183 - INFO - Numerical and categorical pipelines created successfully
+2026-05-26 11:11:25,201 - INFO - Data transformation completed successfully
+2026-05-26 11:11:25,205 - INFO - Model training is completed successfully
+2026-05-26 11:11:25,206 - INFO - Model evaluation is completed successfully with r2 score: 0.9860361207927383
+2026-05-26 11:11:25,207 - INFO - Trained model saved at path: artifacts\model.pkl
+2026-05-26 11:11:25,207 - INFO - Model trainer pipeline is completed successfully
+2026-05-26 11:11:31,381 - INFO - Trained model loaded successfully for prediction
+2026-05-26 11:11:39,493 - INFO - Trained model loaded successfully for prediction

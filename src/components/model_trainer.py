@@ -9,18 +9,22 @@ from src.logger import logging
 from src.custom_exception import CustomException
 from dataclasses import dataclass
 from src.components.data_injestion import DataIngestion
-from src.components.data_transformation import DataTransformationConfig, DataTransformation
+from src.components.data_transformation import DataTransformation
 
 @dataclass
 class ModelTrainerconfig():
     trained_model_file_path: str = os.path.join('artifacts', 'model.pkl')
+
+class ModelTrainer():
     def __init__(self):
         self.model_trainer_config = ModelTrainerconfig()
+    
     def initiate_model_trainer(self):
         try:
             data_injestion = DataIngestion()
-            input_feature_train_arr, target_feature_train_arr, input_feature_test_arr, target_feature_test_arr, preprocessor_obj = DataTransformation().initiate_data_transformation()
-            model = DecisionTreeRegressor()
+            train_data_path, test_data_path = data_injestion.initiate_data_ingestion()
+            input_feature_train_arr, target_feature_train_arr, input_feature_test_arr, target_feature_test_arr, preprocessor_obj = DataTransformation().initiate_data_transformation(train_data_path, test_data_path)
+            model = DecisionTreeRegressor(ccp_alpha=0.1, max_depth=30, min_samples_leaf=1, min_samples_split=2)
             model.fit(input_feature_train_arr, target_feature_train_arr)
             logging.info("Model training is completed successfully")
 

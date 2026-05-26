@@ -1,0 +1,5 @@
+2026-05-26 11:06:29,198 - INFO - Confirmation that things are working.
+2026-05-26 11:06:29,198 - WARNING - An unexpected issue occurred.
+2026-05-26 11:06:29,249 - INFO - Read train and test data successfully
+2026-05-26 11:06:29,259 - INFO - Computed 'total_score' from score columns
+2026-05-26 11:06:29,263 - INFO - Numerical and categorical pipelines created successfully
